@@ -3,19 +3,13 @@
 > [!NOTE]
 > Quick install of brew
 
-```sh copy
-
-```
-
+```sh
 /bin/bash -c "$(curl -fsSL <https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh>)"
-
-```
-
 ```
 
 # Cli tools
 
-```sh copy
+```sh
 brew install neovim \
  glow \
  tmux \
@@ -29,7 +23,6 @@ brew install neovim \
  gitui \
  asdf \
  watchman
-
 ```
 
 # Applications
@@ -55,3 +48,23 @@ brew install --cask \
 ### iTerm2
 
 - [theme](https://github.com/hwyncho/ayu-iTerm)
+
+## Vscode
+
+### Backup extensions
+
+```sh
+code --list-extensions >> vs_code_extensions_list.txt
+```
+
+### Restore extensions
+
+```sh
+cat vs_code_extensions_list.txt | xargs -n 1 code --install-extension
+```
+
+### Uninstall extensions
+
+```
+code --list-extensions | xargs -n 1 code --uninstall-extension
+```
