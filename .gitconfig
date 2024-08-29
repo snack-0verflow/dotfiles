@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Chuck Ng
+	email = 36766508+snack-0verflow@users.noreply.github.com
+[core]
+	editor = nvim
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	pullf = pull
+	po = push
+	ru = remote
