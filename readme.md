@@ -1,3 +1,11 @@
+# Overview
+
+Resources gathered across the magicial web.
+
+![preview image](./preview.png "Preview")
+
+- Include fzf for path searching with bat preview for directory & files
+
 # Homebrew
 
 > [!NOTE]
@@ -11,30 +19,31 @@
 
 ```sh
 brew install neovim \
- glow \
- tmux \
- exa \
- fzf \
- ripgrep \
- fd \
- zoxide \
- thefuck \
- lazygit \
- gitui \
- asdf \
- watchman
+  glow \
+  tmux \
+  exa \
+  fzf \
+  ripgrep \
+  fd \
+  zoxide \
+  thefuck \
+  lazygit \
+  gitui \
+  asdf \
+  watchman \
+  jandedobbeleer/oh-my-posh/oh-my-posh
 ```
 
 # Applications
 
 ```sh
 brew install --cask \
- brave-browser \
- visual-studio-code \
- spotify \
- iterm2 \
- cursor \
- nikitabobko/tap/aerospace
+  brave-browser \
+  visual-studio-code \
+  spotify \
+  iterm2 \
+  cursor \
+  nikitabobko/tap/aerospace
 ```
 
 ### Shell
